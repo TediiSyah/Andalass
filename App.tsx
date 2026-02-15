@@ -46,31 +46,31 @@ const App: React.FC = () => {
       <Navbar isScrolled={isScrolled} isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       
       <main>
-        <section id="hero">
+        <section id="hero" className="scroll-mt-24">
           <Hero />
         </section>
 
-        <section id="about">
+        <section id="about" className="scroll-mt-24">
           <About />
         </section>
 
-        <section id="services">
+        <section id="services" className="scroll-mt-24">
           <Services />
         </section>
 
-        <section id="projects">
+        <section id="projects" className="scroll-mt-24">
           <Projects />
         </section>
 
-        <section id="process">
+        <section id="process" className="scroll-mt-24">
           <Process />
         </section>
 
-        <section id="testimonials">
+        <section id="testimonials" className="scroll-mt-24">
           <Testimonials />
         </section>
 
-        <section id="contact">
+        <section id="contact" className="scroll-mt-24">
           <FinalCTA />
         </section>
       </main>
