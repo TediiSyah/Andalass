@@ -9,24 +9,24 @@ export const Projects: React.FC = () => {
       name: "Modern Minimalist Gate",
       category: "Residential",
       location: "Perumahan Citra Indah",
-      imageUrl: "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&q=80&w=800"
+      imageUrl: "/assets/gateImage.png"
     },
     {
       name: "Commercial Steel Canopy",
       category: "Commercial",
       location: "Central Business Area",
-      imageUrl: "https://images.unsplash.com/photo-1590674116497-69b503023223?auto=format&fit=crop&q=80&w=800"
+      imageUrl: "/assets/canopyImage.png"
     },
     {
-      name: "Industrial Warehouse Structure",
-      category: "Industrial",
-      location: "Industrial Estate",
-      imageUrl: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800"
+      name: "Modern Steel Staircase",
+      category: "Residential",
+      location: "Perumahan Harapan Indah",
+      imageUrl: "/assets/staircaseImage.png"
     }
   ];
 
   return (
-    <div className="py-24 bg-zinc-50 dark:bg-zinc-950 transition-colors duration-300">
+    <div className="py-[130px] bg-zinc-50 dark:bg-zinc-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black dark:text-white">Selected Projects</h2>

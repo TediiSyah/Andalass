@@ -8,7 +8,7 @@ export const Testimonials: React.FC = () => {
     {
       name: "Andi Pratama",
       role: "Home Owner",
-      review: "Hasil pagar sangat rapi dan kokoh. Tim sangat komunikatif selama pengerjaan. Proses dari survey hingga pemasangan sangat cepat dan profesional."
+      review: "Hasil pagar sangat rapi dan kokoh. Proses dari survey hingga pemasangan sangat cepat dan profesional."
     },
     {
       name: "Rina Setiawan",
@@ -23,7 +23,7 @@ export const Testimonials: React.FC = () => {
   ];
 
   return (
-    <div className="py-24 bg-zinc-50 dark:bg-zinc-950 transition-colors duration-300">
+    <div className="py-[130px] bg-zinc-50 dark:bg-zinc-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <div className="w-12 h-12 bg-black dark:bg-white/5 rounded-full flex items-center justify-center mb-6">

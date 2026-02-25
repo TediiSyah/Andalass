@@ -4,7 +4,7 @@ import { ShieldCheck, Target, Users, ArrowRight } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <div className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-white dark:bg-black transition-colors duration-300">
+    <div className="relative pt-32 pb-[130px] md:pt-48 md:pb-[130px] overflow-hidden bg-white dark:bg-black transition-colors duration-300">
       {/* Background Ornaments */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-zinc-200/50 dark:bg-white/5 blur-[120px] rounded-full -mr-64 -mt-32 animate-fade-in"></div>
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-zinc-100/50 dark:bg-zinc-800/20 blur-[120px] rounded-full -ml-64 -mb-32 animate-fade-in"></div>
@@ -21,14 +21,14 @@ export const Hero: React.FC = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-black via-zinc-600 to-zinc-900 dark:from-white dark:via-zinc-400 dark:to-zinc-600">Fabrication</span> for Modern Construction
             </h1>
             <p className="animate-reveal animate-fade-in-up delay-200 text-zinc-600 dark:text-zinc-400 text-lg md:text-xl mb-10 max-w-lg leading-relaxed">
-              Kami membantu hunian dan bisnis membangun struktur besi dan baja yang kuat, rapi, dan tahan lama dengan standar industri modern.
+              Ahli dalam konstruksi besi dan baja profesional, kami menghadirkan solusi struktur yang kokoh, presisi, dan tahan lama untuk memperkuat nilai properti anda.
             </p>
             
             <div className="animate-reveal animate-fade-in-up delay-300 flex flex-col sm:flex-row gap-4 mb-12">
-              <button className="bg-black dark:bg-white hover:bg-zinc-800 dark:hover:bg-zinc-200 text-white dark:text-black px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 group shadow-xl shadow-black/10 dark:shadow-white/10">
-                Free Consultation
+              <a href="#contact" className="bg-black dark:bg-white hover:bg-zinc-800 dark:hover:bg-zinc-200 text-white dark:text-black px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 group shadow-xl shadow-black/10 dark:shadow-white/10">
+                Consultation Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button className="bg-zinc-50 dark:bg-white/5 hover:bg-zinc-100 dark:hover:bg-white/10 text-black dark:text-white border border-zinc-200 dark:border-white/10 px-8 py-4 rounded-xl font-bold transition-all">
                 View Our Projects
               </button>
@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
              {/* Mockup Style Industrial Image */}
             <div className="relative z-10 rounded-2xl overflow-hidden border border-zinc-200 dark:border-white/10 shadow-2xl transition-all duration-700">
               <img 
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200" 
+                src="/assets/hero.jpg" 
                 alt="Industrial Steel Fabrication"
                 className="w-full h-auto object-cover aspect-[4/3] group-hover:scale-110 transition-transform duration-1000"
               />

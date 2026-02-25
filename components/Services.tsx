@@ -22,7 +22,7 @@ export const Services: React.FC = () => {
     },
     {
       title: "Steel Construction",
-      description: "Struktur baja untuk gudang, workshop, showroom, dan berbagai bangunan komersial.",
+      description: "Struktur baja untuk gudang, workshop, showroom, dan berbagai bangunan.",
       icon: Building2
     },
     {
@@ -32,13 +32,13 @@ export const Services: React.FC = () => {
     },
     {
       title: "Installation & Finishing",
-      description: "Instalasi profesional dengan quality control ketat dan finishing cat anti-karat terbaik.",
+      description: "Instalasi profesional dengan quality control ketat dan finishing cat anti karat.",
       icon: Factory
     }
   ];
 
   return (
-    <div className="py-24 bg-white dark:bg-black transition-colors duration-300 overflow-hidden">
+    <div className="py-[130px] bg-white dark:bg-black transition-colors duration-300 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 text-center mb-16 animate-reveal animate-fade-in-up">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black dark:text-white">Our Core Services</h2>
         <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto text-lg">

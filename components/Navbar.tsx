@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled, isDarkMode, toggleTh
             <Hammer className="text-white dark:text-black w-6 h-6" />
           </div>
           <span className="text-xl font-bold tracking-tight text-black dark:text-white">
-            Maju Jaya <span className="text-zinc-500 dark:text-zinc-400">Steelworks</span>
+            Andalass <span className="text-zinc-500 dark:text-zinc-400">Steelworks</span>
           </span>
         </div>
 
@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled, isDarkMode, toggleTh
             href="#contact"
             className="bg-black dark:bg-white text-white dark:text-black px-6 py-2.5 rounded-xl text-sm font-bold transition-all hover:scale-105 active:scale-95 shadow-lg shadow-black/10 dark:shadow-white/10"
           >
-            Get Free Consultation
+            Get Consultation
           </a>
         </div>
 
@@ -84,9 +84,9 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled, isDarkMode, toggleTh
               {item.name}
             </a>
           ))}
-          <button className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-xl font-bold mt-2">
-            Get Free Consultation
-          </button>
+          <a href="#contact" className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-xl font-bold mt-2 text-center" onClick={() => setIsOpen(false)}>
+            Get Consultation
+          </a>
         </div>
       )}
     </nav>

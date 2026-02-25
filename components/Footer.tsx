@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
             <div className="w-8 h-8 bg-black dark:bg-white rounded-lg flex items-center justify-center">
               <Hammer className="text-white dark:text-black w-5 h-5" />
             </div>
-            <span className="text-xl font-bold tracking-tight text-black dark:text-white">Steelworks</span>
+            <span className="text-xl font-bold tracking-tight text-black dark:text-white">Andalass</span>
           </div>
           <p className="text-zinc-600 dark:text-zinc-500 leading-relaxed mb-8">
             Solusi konstruksi besi dan baja modern dengan presisi tinggi dan kualitas material terbaik.
@@ -45,34 +45,33 @@ export const Footer: React.FC = () => {
           <ul className="flex flex-col gap-4 text-zinc-600 dark:text-zinc-500">
             <li className="flex gap-3">
               <MapPin className="text-black dark:text-white shrink-0" size={20} />
-              <span>Jl. Contoh Raya No.123, <br />Kota Contoh, Indonesia</span>
+              <span>Jl. Simpang Anggodo Lowok Suruh No.19, RT.5/RW.9<br />Mangliawan, Kec. Pakis, Kabupaten Malang, Jawa Timur, Indonesia</span>
             </li>
             <li className="flex gap-3 items-center">
               <Phone className="text-black dark:text-white shrink-0" size={20} />
-              <span>08xx-xxxx-xxxx</span>
+              <span>0859-6158-0015</span>
             </li>
-            <li className="flex gap-3 items-center">
+            {/* <li className="flex gap-3 items-center">
               <Mail className="text-black dark:text-white shrink-0" size={20} />
               <span>info@steelworksdummy.com</span>
-            </li>
+            </li> */}
           </ul>
         </div>
 
         <div>
           <h4 className="text-black dark:text-white font-bold mb-6">Working Hours</h4>
           <ul className="flex flex-col gap-4 text-zinc-600 dark:text-zinc-500">
-            <li>Monday – Friday: 08:00 – 17:00</li>
-            <li>Saturday: 08:00 – 15:00</li>
+            <li>Monday – Saturday: 08:00 – 17:00</li>
             <li>Sunday: Closed</li>
             <li className="pt-4 text-sm text-zinc-400 dark:text-zinc-600 italic">
-              *Tersedia untuk survey darurat di luar jam kerja.
+              *Tersedia untuk konsultasi dan survey di luar jam kerja.
             </li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 pt-10 border-t border-zinc-200 dark:border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-6 text-zinc-500 text-sm">
-        <p>© 2024 Maju Jaya Steelworks. All rights reserved.</p>
+        <p>© 2026 Andalass. All rights reserved.</p>
         <div className="flex gap-8">
           <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Terms of Service</a>
